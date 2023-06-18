@@ -1,6 +1,6 @@
 package com.gitdemo;
 
-import java.util.ArrayList;
+import java.util.ArrayList;import java.util.Map;
 
 public class ArrayListDemo {
 	
@@ -11,7 +11,10 @@ public class ArrayListDemo {
 		list.add("Satywan");
 		list.add("Kalyani");
 		list.add("Mahesh");
-		System.out.println(list);
+		
+		list.stream().forEach(m->System.out.println(m));
+		
+		
 	}
 
 }
